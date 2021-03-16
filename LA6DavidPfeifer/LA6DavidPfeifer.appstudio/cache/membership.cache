@@ -1,0 +1,16 @@
+
+let members = ["Mary","Sam","Joey","Paul","Mike","Char","Jenny","Kennedy","Kaden","Kurt","Anne"]
+
+button1.onclick=function(){
+  let name = Input1.value
+  members.push(name)
+    console.log(members)
+    lableOutput.value = (`${name} you do have a membership`)
+}
+
+button2.onclick=function(){
+  let name = Input1.value
+    lableOutput.value = (`${name} you do not have a membership`)
+    members.push(name)
+}
+
